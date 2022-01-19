@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      form {
+        width: 300px;
+        margin: auto;
+        background: linear-gradient(45deg, #52c1f6ed, #d812c8d6);
+        padding: 30px;
+        border: 2px solid black;
+        border-radius: 50px 0px 50px 0px;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 10px black;
+        margin: 0px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+      }
+      button {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 28px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #1ae6d3, #e613c1d1);
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: monospace;
+        box-shadow: 1px 1px 10px darkgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <h1>Sign up</h1>
+
+      <label for="first name"
+        >First Name :
+        <input type="text" placeholder="First name" id="firstName" required />
+      </label>
+      <label for="last name"
+        >Last Name :
+        <input type="text" placeholder="Last name" id="lastName" required />
+      </label>
+      <label for="email adress"
+        >Email Adress :
+        <input type="email" placeholder="Email Adress" id="email" required />
+      </label>
+      <label for="password"
+        >Password :
+        <input type="password" placeholder="Password" id="password" required />
+      </label>
+      <label for="number"
+        >Number :
+        <input type="Number" placeholder="Number" id="number" required />
+      </label>
+      <button type="submit">Sign up</button>
+    </form>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
